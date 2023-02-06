@@ -9,4 +9,10 @@ body {
 #wrapper {
     margin: 0 10%;
     background-color: blanchedalmond;
+    padding: 10%;
+}
+
+hr {
+    width: 15px;
+    color:cadetblue;
 }
