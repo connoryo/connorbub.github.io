@@ -16,7 +16,7 @@
       <h2>Super The Legend of Zelda U Deluxe Special Edition + NEW! Double Trouble&trade; DLC</h2>
     
       <div id="unity-container" class="unity-desktop">
-        <canvas id="unity-canvas" width=768 height=720></canvas>
+        <canvas id="unity-canvas" width=768 height=720 style="margin: 0 10%;"></canvas>
         <div id="unity-loading-bar">
           <div id="unity-logo"></div>
           <div id="unity-progress-bar-empty">
@@ -24,10 +24,10 @@
           </div>
         </div>
         <div id="unity-warning"> </div>
-        <div id="unity-footer" style="width: 75%">
+        <div id="unity-footer" style="width: 66%">
           <div id="unity-webgl-logo"></div>
           <div id="unity-fullscreen-button"></div>
-          <div id="unity-build-title">p1_zelda</div>
+          <div id="unity-build-title"></div>
         </div>
       </div>
       <script>
@@ -100,8 +100,8 @@
         } else {
           // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
   
-          canvas.style.width = "75%";
-          canvas.style.height = "75%";
+          canvas.style.width = "66%";
+          canvas.style.height = "66%";
         }
   
         loadingBar.style.display = "block";
