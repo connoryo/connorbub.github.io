@@ -1,0 +1,12 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body {
+    background-color:darkgoldenrod;
+}
+
+#wrapper {
+    margin: 0 10%;
+    background-color: blanchedalmond;
+}
