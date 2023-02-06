@@ -22,3 +22,12 @@ hr {
     size: 15px;
     color:cadetblue;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: cadetblue;
+}
