@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #00923d;
+}
+
+#wrapper {
+    margin: 0 10%;
+    background-color: blanchedalmond;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+hr {
+    width: 100%;
+    size: 15px;
+    color:cadetblue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: cadetblue;
+}
